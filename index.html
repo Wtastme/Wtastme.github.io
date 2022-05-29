@@ -44,6 +44,9 @@
         }
       </style>
     <link rel="alternate" href="/atom.xml" title="ItS" type="application/atom+xml">
+<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
 </head>
   </html>
 </html>
@@ -183,7 +186,13 @@
       
     <div class="article-entry" itemprop="articleBody">
        
-  <h3 id="记录博客的搭建工作"><a href="#记录博客的搭建工作" class="headerlink" title="记录博客的搭建工作"></a>记录博客的搭建工作</h3><blockquote>
+  <h3 id="记录博客的搭建工作"><a href="#记录博客的搭建工作" class="headerlink" title="记录博客的搭建工作"></a>记录博客的搭建工作</h3>
+    <div id="aplayer-ZnACMJTE" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="1450158244" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
+    ></div>
+
+
+<blockquote>
 <h5 id="基本工作如下："><a href="#基本工作如下：" class="headerlink" title="基本工作如下："></a>基本工作如下：</h5><ul>
 <li><p>配置环境</p>
 </li>
@@ -241,13 +250,6 @@
     <ul>
       <li>
         
-        
-        <span>
-  <span><i class="ri-user-3-fill"></i>Visitors:<span id="busuanzi_value_site_uv"></span></span>
-  <span class="division">|</span>
-  <span><i class="ri-eye-fill"></i>Views:<span id="busuanzi_value_page_pv"></span></span>
-</span>
-        
       </li>
     </ul>
     <ul>
@@ -256,12 +258,29 @@
     <ul>
       
     </ul>
+    <!-- 运行天数 -->
     <ul>
-      <li>
-        <!-- cnzz统计 -->
-        
-      </li>
-    </ul>
+      <li><span id="runtime_span">
+        <script type="text/javascript">            
+          function show_runtime() {
+              window.setTimeout("show_runtime()", 1000);
+              X = new Date("05/30/2022 01:02:03");
+              Y = new Date();
+              T = (Y.getTime() - X.getTime());
+              M = 24 * 60 * 60 * 1000;
+              a = T / M;
+              A = Math.floor(a);
+              b = (a - A) * 24;
+              B = Math.floor(b);
+              c = (b - B) * 60;
+              C = Math.floor((b - B) * 60);
+              D = Math.floor((c - C) * 60);
+              runtime_span.innerHTML = "小站在各种崩坏中坚持了: " + A + "天" + B + "小时" + C + "分" + D + "秒"
+          }
+          show_runtime();
+      </script>
+      </span></li>
+  </ul>
   </div>
 </footer>    
     </main>
@@ -477,9 +496,7 @@
 <!-- Katex -->
 
 <!-- busuanzi  -->
- 
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
- 
+
 <!-- ClickLove -->
 
 <!-- ClickBoom1 -->
@@ -553,23 +570,6 @@
 </script>
 
 
-    
-    <div id="music">
-    
-    
-    
-    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="86"
-        src="//music.163.com/outchain/player?type=2&id=1450158244&auto=0&height=66"></iframe>
-</div>
-
-<style>
-    #music {
-        position: fixed;
-        right: 15px;
-        bottom: 0;
-        z-index: 998;
-    }
-</style>
     
     
 <script>
