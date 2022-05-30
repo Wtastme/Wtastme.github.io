@@ -4,7 +4,7 @@
     <title>记录博客的搭建工作</title>
     <url>/2022/05/29/%E8%AE%B0%E5%BD%95%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E5%B7%A5%E4%BD%9C/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="记录博客的搭建工作"><a href="#记录博客的搭建工作" class="headerlink" title="记录博客的搭建工作"></a>记录博客的搭建工作</h3>
-    <div id="aplayer-PsOLMgYV" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-BZnwZQqf" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1450158244" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -104,10 +104,30 @@
 </ul>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% meting <span class="string">&quot;1450158244&quot;</span> <span class="string">&quot;netease&quot;</span> <span class="string">&quot;song&quot;</span> <span class="string">&quot;autoplay&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
 
+<ol start="2">
+<li>图床配置</li>
+</ol>
+<ul>
+<li><p>下载PicGo</p>
+<p><a href="https://github.com/Molunerfinn/PicGo">点我下载PicGo</a></p>
+</li>
+<li><p>创建GitHub图床仓库</p>
+</li>
+<li><p>生成Tokens</p>
+<p>在Settings中的Developer Settings中生成Token，只会显示一次（记得备份保存），全选repo设置</p>
+</li>
+<li><p>配置图床信息</p>
+<img src="https://cdn.jsdelivr.net/gh/Wtastme/TicGoImages/img/image-20220530174620266.png" alt="配置PicGo" style="zoom:50%;" /></li>
+<li><p>在Typora中配置</p>
+<p>偏好设置-&gt;</p>
+</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/Wtastme/TicGoImages/img/image-20220530174742141.png" alt="Typora设置" style="zoom:50%;" />
 
-
-
-
+<p>在点击<strong>验证图片上传选项</strong>后，若出现Success则表示搭建成功</p>
+<blockquote>
+<p>注： 配置PicGo时，仓库名要从url中粘贴，否则可能会导致上传失败</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>学习日记</category>
