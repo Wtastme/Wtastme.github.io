@@ -4,7 +4,7 @@
     <title>记录博客的搭建工作</title>
     <url>/2022/05/29/%E8%AE%B0%E5%BD%95%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E5%B7%A5%E4%BD%9C/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="记录博客的搭建工作"><a href="#记录博客的搭建工作" class="headerlink" title="记录博客的搭建工作"></a>记录博客的搭建工作</h3>
-    <div id="aplayer-iZnFObol" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-PsOLMgYV" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1450158244" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -37,7 +37,7 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">git --version</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
 
 <p>以下是本机版本信息：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Wtastme%20/%20TicGoImages/img/image-20220530172638479.png" alt="image-20220530172638479"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Wtastme/TicGoImages/img/image-20220530173816652.png" alt="版本图"></p>
 <h4 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h4><ol>
 <li>去<a href="https://github.com/">GitHub</a>创建仓库，仓库名同自己的<strong>用户注册名</strong>（wtastme.github.io）</li>
 <li>生成密钥，完成绑定</li>
